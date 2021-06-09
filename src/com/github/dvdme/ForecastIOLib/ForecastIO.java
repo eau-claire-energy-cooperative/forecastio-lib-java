@@ -21,7 +21,7 @@ import com.eclipsesource.json.JsonObject;
 public class ForecastIO {
 
 
-	private static final String ForecastIOURL = "https://api.darksky.net/forecast/";
+	private static final String ForecastIOURL = "https://pirateweather.net/forecast/";
 	private final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 	private String ForecastIOApiKey = "";
 	private String unitsURL;
@@ -73,7 +73,7 @@ public class ForecastIO {
 
 	public ForecastIO(String API_KEY){
 
-		if (API_KEY.length()==32) {
+		if (API_KEY.length()==40) {
 			this.ForecastIOApiKey = API_KEY;
 			this.forecast = new JsonObject();
 			this.currently = new JsonObject();
@@ -97,7 +97,7 @@ public class ForecastIO {
 
 	public ForecastIO(String LATITUDE, String LONGITUDE, String API_KEY){	
 
-		if (API_KEY.length()==32) {
+		if (API_KEY.length()==40) {
 			this.ForecastIOApiKey = API_KEY;
 			this.forecast = new JsonObject();
 			this.currently = new JsonObject();
@@ -123,7 +123,7 @@ public class ForecastIO {
 
 	public ForecastIO(String LATITUDE, String LONGITUDE, String PROXYNAME, int PROXYPORT, String API_KEY){	
 
-		if (API_KEY.length()==32) {
+		if (API_KEY.length()==40) {
 			this.ForecastIOApiKey = API_KEY;
 			this.forecast = new JsonObject();
 			this.currently = new JsonObject();
@@ -149,7 +149,7 @@ public class ForecastIO {
 	
 	public ForecastIO(String LATITUDE, String LONGITUDE, String UNITS, String LANG, String API_KEY){	
 
-		if (API_KEY.length()==32) {
+		if (API_KEY.length()==40) {
 			this.ForecastIOApiKey = API_KEY;
 			this.forecast = new JsonObject();
 			this.currently = new JsonObject();
@@ -173,7 +173,7 @@ public class ForecastIO {
 	
 	public ForecastIO(String LATITUDE, String LONGITUDE, String UNITS, String LANG, String PROXYNAME, int PROXYPORT, String API_KEY){	
 
-		if (API_KEY.length()==32) {
+		if (API_KEY.length()==40) {
 			this.ForecastIOApiKey = API_KEY;
 			this.forecast = new JsonObject();
 			this.currently = new JsonObject();
