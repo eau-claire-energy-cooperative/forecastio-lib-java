@@ -14,17 +14,7 @@ First, I wanted to make a serious open source library that was meant to used by 
 
 ## Install
 
-Install as a  Maven dependency:
-
-```xml
-<dependency>
-	<groupId>com.github.dvdme</groupId>
-	<artifactId>ForecastIOLib</artifactId>
-	<version>LATEST</version>
-</dependency>
-```
-* Versions 1.5.1 to 1.6.0 are on maven. Avoid using 1.5.3  and 1.5.4 because it was having issues building on graddle because of a not so well made jar file. I recommend using the latest.
-* If anyone wants to check the auto generated javadocs they are here: [forecastiolib.dme.ninja(http://forecastiolib.dme.ninja)
+To install, simply make a copy of the repository or download the .zip file.
 
 ## Usage
 To use it add the jar file to your project build path or add the classes from
