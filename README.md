@@ -2,15 +2,15 @@
 [![build-status](https://img.shields.io/github/workflow/status/eau-claire-energy-cooperative/forecastio-lib-java/Java%20CI?logo=Github)](https://github.com/eau-claire-energy-cooperative/forecastio-lib-java/actions/workflows/maven.yml?query=branch%3Amain)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
 
-A Java library for the [darksky.net](https://darksky.net) API (previously forecast.io). The API is fully implemented except for callbacks. Further development will continue. A jar file with the dependencies is available under the jar/ folder for convenience. **This jar file is not updated** Latest version is on maven central.
+A Java library for the [pirateweather.net](https://pirateweather.net) API (previously forecast.io). The API is fully implemented except for callbacks. Further development will continue. A jar file with the dependencies is available under the jar/ folder for convenience. **This jar file is not updated** Latest version is on maven central.
 
-Developed with Java 1.7
+Developed with Java 16
 
 ## Background
 
 I started writing this library for two main reasons:
 
-First, I wanted to make a serious open source library that was meant to used by anyone and not just by me for quite sometime. Second, I came across the [darksky.net](https://www.darksky.net) API that I found to be functional with clear and good information. Also, I like the weather and weather data and weather prediction so this is going to be very useful for me to implement my crazy ideas about weather software.
+First, I wanted to make a serious open source library that was meant to used by anyone and not just by me for quite sometime. Second, I came across the [pirateweather.net](https://www.pirateweather.net) API that I found to be functional with clear and good information. Also, I like the weather and weather data and weather prediction so this is going to be very useful for me to implement my crazy ideas about weather software.
 
 ## Install
 
@@ -212,7 +212,7 @@ I generated a javadoc based in the comments I made. It is included in the files 
 
 Thanks to JetBrains for providing an open source license for [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 
-[DarkSKY](https://darksky.net/poweredby/)
+[PirateWeather](https://pirateweather.net/poweredby/)
 
 ## Contributing
 
