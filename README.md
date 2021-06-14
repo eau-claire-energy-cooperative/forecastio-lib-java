@@ -14,7 +14,7 @@ First, I wanted to make a serious open source library that was meant to used by 
 
 ## Install
 
-To install, simply make a copy of the repository or download the .zip file.
+To install, simply clone the repository or download the source code .zip file.
 
 ## Usage
 To use it add the jar file to your project build path or add the classes from
