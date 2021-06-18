@@ -1,3 +1,7 @@
+## Update (09-06-2021):
+
+* changed URL from darksky to pirateweather
+
 ## Update (11-10-2016):
 * Changed api url from api.forecast.io to api.darksky.net
 
