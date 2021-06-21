@@ -21,7 +21,7 @@ import com.eclipsesource.json.JsonObject;
 public class ForecastIO {
 
 
-	private static final String ForecastIOURL = "https://pirateweather.net/forecast/";
+	private static final String ForecastIOURL = "https://api.pirateweather.net/forecast/";
 	private final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 	private String ForecastIOApiKey = "";
 	private String unitsURL;
@@ -792,6 +792,6 @@ public class ForecastIO {
 		rawResponse = response;
 		return response;
 	}//httpGET - end
-
+	
 }//public class - end
 
